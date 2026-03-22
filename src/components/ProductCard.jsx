@@ -11,10 +11,10 @@ function ProductCard({ product }) {
   return (
     <div
       onClick={handleClick}
-      className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col overflow-hidden cursor-pointer group h-full"
+      className="bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col overflow-hidden cursor-pointer group h-full"
     >
       {/* Image */}
-      <div className="h-48 sm:h-52 flex items-center justify-center p-6 bg-gray-50">
+      <div className="h-48 sm:h-52 flex items-center justify-center p-6 bg-gray-50 dark:bg-gray-700">
         <img
           src={product.image}
           alt={product.title}
@@ -27,11 +27,11 @@ function ProductCard({ product }) {
         <span className="text-xs uppercase tracking-wide text-indigo-500 font-medium">
           {product.category}
         </span>
-        <h2 className="text-sm font-semibold text-gray-800 line-clamp-2 flex-1">
+        <h2 className="text-sm font-semibold text-gray-800 dark:text-gray-200 line-clamp-2 flex-1">
           {product.title}
         </h2>
         <div className="flex items-center justify-between mt-auto pt-2 border-t border-gray-100">
-          <span className="text-lg font-bold text-gray-900">
+          <span className="text-lg font-bold text-gray-900 dark:text-white">
             ${product.price}
           </span>
           <span className="text-xs text-gray-500">

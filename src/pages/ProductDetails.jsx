@@ -30,7 +30,7 @@ function ProductDetails() {
   if (error) return <ErrorMessage message={error} />;
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-black dark:text-white">
 
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-10">
@@ -46,7 +46,7 @@ function ProductDetails() {
 
       {/* Product */}
       <main className="max-w-4xl mx-auto px-4 py-8 sm:py-12">
-        <div className="bg-white rounded-2xl shadow-sm p-6 sm:p-8 flex flex-col md:flex-row gap-8">
+        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-6 sm:p-8 flex flex-col md:flex-row gap-8">
 
           {/* Image */}
           <div className="flex items-center justify-center bg-gray-50 rounded-xl p-6 sm:p-8 md:w-80 shrink-0 min-h-64">
@@ -63,11 +63,11 @@ function ProductDetails() {
               {product.category}
             </span>
 
-            <h1 className="text-xl sm:text-2xl font-bold text-gray-800">
+            <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-200">
               {product.title}
             </h1>
 
-            <p className="text-gray-500 text-sm leading-relaxed">
+            <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
               {product.description}
             </p>
 
@@ -77,7 +77,7 @@ function ProductDetails() {
               {product.rating.count} reviews
             </div>
 
-            <div className="text-3xl font-bold text-gray-900 mt-2">
+            <div  className="text-gray-900 dark:text-white font-bold text-xl">
               ${product.price}
             </div>
 
