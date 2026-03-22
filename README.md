@@ -52,5 +52,15 @@ src/
 
 ---
 
+## Screenshots
+<img width="1809" height="803" alt="image" src="https://github.com/user-attachments/assets/72d417d9-d936-4420-bac3-96479d4fbed6" />
+
+<img width="1729" height="831" alt="Screenshot 2026-03-22 125151" src="https://github.com/user-attachments/assets/e3944dc0-6f9d-4061-95b2-280b811f7689" />
+
+<img width="1809" height="803" alt="Screenshot 2026-03-22 125212" src="https://github.com/user-attachments/assets/21e37f2f-63ca-4bf0-8675-b0cd727c62c0" />
+
+
+
+
 ## Author
 Ayush Shukla (Front End Developer)
